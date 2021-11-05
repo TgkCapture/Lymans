@@ -22,7 +22,7 @@ import com.spire.doc.documents.Paragraph;
 import java.awt.Toolkit;
 import java.awt.datatransfer.*;
 import java.io.File;
-import java.io.FileOutputStream;
+// import java.io.FileOutputStream;
 import java.io.IOException;
 
 import javafx.beans.property.BooleanProperty;
