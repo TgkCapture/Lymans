@@ -1,0 +1,16 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "libraries/javafx.base.jar",
+        "libraries/javafx.controls.jar",
+        "libraries/javafx.fxml.jar",
+        "libraries/javafx.graphics.jar",
+        "libraries/javafx.media.jar",
+        "libraries/javafx.swing.jar",
+        "libraries/javafx.web.jar",
+        "libraries/javafx-swt.jar",
+        "libraries/jaxb-api-2.3.0.jar",
+        "libraries/mysql-connector-java-8.0.19.jar",
+        "libraries/Spire.Doc.jar"
+    ]
+}

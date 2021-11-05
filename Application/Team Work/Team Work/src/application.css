@@ -1,0 +1,310 @@
+/* Login */
+
+.loginButton{
+    -fx-background-color:red;
+}
+.loginButton:hover{
+    -fx-background-color: deepskyblue;
+}
+
+/* Side Menu */
+
+.list-view .list-cell:even{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:odd{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:selected{
+    -fx-background-color: dodgerblue;
+}
+
+/* User */
+.menu{
+    -fx-background-color: transparent;
+}
+.menu .label{
+    -fx-text-fill: dodgerblue;
+    -fx-font-size: 16 px;
+    -fx-font-weight: Bold;
+}
+.menu .label:hover{
+    -fx-cursor: hand;
+    -fx-text-fill: rgb(20, 148, 127);
+}
+.menu-item .label{
+    -fx-text-fill: #222;
+    -fx-font-size: 12 px;
+    -fx-font-weight: none;
+}
+.menu-item:focused{
+    -fx-background: transparent;
+    -fx-cursor: hand;
+}
+
+/* Tab Panel */
+
+.main-tab{
+    -fx-tab-max-height: 0 ;
+}
+.main-tab .tab-header-area{
+    -fx-padding: -1em;
+    visibility: hidden;
+}
+
+/* Home */
+
+.welcome-text{
+    -fx-text-fill: rgb(233, 85, 114);
+}
+
+/* create */
+
+.create-field{
+    -fx-border-width: 2; 
+    -fx-border-color: grey; 
+    -fx-border-style: solid;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: grey;
+}
+.create-field:Focused{
+    -fx-focus-color: transparent;
+}
+
+.create-button:hover{
+    -fx-background-color: deepskyblue;
+}
+
+/* RADIO BUTTON */
+
+.radio-button{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+.radio-button > .radio{
+    -fx-background-color: transparent;
+    -fx-padding: -3em;
+}
+.radio-button > .radio > .dot{
+    -fx-background-color:transparent;
+}
+.radio-button:selected{
+    -fx-border-color: Dodgerblue;
+    -fx-text-fill: Deepskyblue;
+}
+
+.task_menu_button{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+.task_menu_button:selected{
+    -fx-background-color: rgba(255, 255, 255, 0.068);
+    -fx-border-color: Dodgerblue;
+    -fx-text-fill: white;
+}
+
+.mainButtons{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color:transparent;
+}
+.mainButtons:selected{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color:dodgerblue;
+    -fx-text-fill: white;
+}
+.mainButtons:selected > .text{
+    -fx-text-fill: white;
+}
+.loginButtons:selected{
+    -fx-background-color: rgba(68, 68, 68, 0.438);
+    -fx-text-fill: white;
+}
+.loginButtons:selected > .text{
+    -fx-text-fill: white;
+}
+.usersRadio:selected{
+    -fx-background-color: dodgerblue;
+    -fx-text-fill: white;
+}
+.usersRadio:selected > .text{
+    -fx-text-fill: white;
+}
+.teamRadio:selected{
+    -fx-background-color: rgba(30, 143, 255, 0.568);
+    -fx-text-fill: white;
+}
+.teamRadio:selected > .text{
+    -fx-text-fill: white;
+}
+
+.teamsRadio:selected{
+    -fx-background-color: dodgerblue;
+    -fx-text-fill: white;
+}
+.teamsRadio:selected > .text{
+    -fx-text-fill: white;
+}
+
+/* TEAM TAB */
+
+.teamTab{
+    -fx-background-color:deepskyblue;
+}
+
+
+.task-scroll .viewport{
+    -fx-background-color: transparent;
+}
+.task-scroll .scroll-bar .increment-button{
+    visibility: hidden;
+}
+.task-scroll .scroll-bar .decrement-button{
+    visibility: hidden;
+}
+.task-scroll .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.task-scroll .scroll-bar:vertical .track-background{
+    visibility: hidden;
+}
+.task-scroll .scroll-bar:vertical .track{
+    visibility: hidden;
+}
+.task-scroll .hide-thumb .scroll-bar:vertical .thumb{
+    -fx-background-color: transparent;
+}
+
+.task-menus .label:hover{
+    -fx-cursor: hand;
+}
+
+/* Add Task */
+
+/* FILE VIEW */
+
+.task_file_view .list-cell:even{
+    -fx-text-fill: #333;
+}
+.task_file_view .list-cell:odd{
+    -fx-text-fill: #333;
+}
+.task_files .list-cell:even{
+    -fx-text-fill: #333;
+}
+.task_files .list-cell:odd{
+    -fx-text-fill: #333;
+}
+.task_files .list-cell:selected{
+    -fx-background-color: #c9e8f3c0;
+    -fx-border-radius: 4;
+    -fx-border-background: 4;
+}
+.task_users{
+    -fx-background-insets: 0; 
+    -fx-padding: 0;
+}
+.task_users .list-cell:even{
+    -fx-text-fill: white;
+}
+.task_users .list-cell:odd{
+    -fx-text-fill: white;
+}
+
+
+/* COMMENTS */
+
+.comment-text-area{
+    -fx-border-width: 2; 
+    -fx-border-color: rgb(230, 230, 230); 
+    -fx-text-box-border: transparent;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-background-color: grey;
+}
+
+
+/* EDIT SCROLL */
+
+.text-editor .viewport{
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, grey, 10,0,0,0);
+}
+.text-editor .scroll-bar .increment-button{
+    visibility: hidden;
+}
+.text-editor .scroll-bar .decrement-button{
+    visibility: hidden;
+}
+.text-editor .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.text-editor .scroll-bar:vertical .track-background{
+    visibility: hidden;
+}
+.text-editor .scroll-bar:vertical .track{
+    visibility: hidden;
+}
+.text-editor .hide-thumb .scroll-bar:vertical .thumb{
+    -fx-background-color: transparent;
+}
+
+/* COMFIRM BUTTONS */
+
+.buttonHover:hover{
+    -fx-background-color: deepskyblue;
+}
+
+/* USER FILE VIEW */
+
+.userFileView .list-cell:even{
+    -fx-text-fill: #333;
+}
+.userFileView .list-cell:odd{
+    -fx-text-fill: #333;
+}
+.userFileView .list-cell:selected{
+    -fx-background-color: #b3c1c73f;
+    -fx-border-radius: 4;
+    -fx-border-background: 4;
+}
+
+/* SETTINGS */
+
+.settings-menu{
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+.settings-menu:selected{
+    -fx-background-color: rgba(81, 81, 81, 0.658);
+    -fx-text-fill: white;
+}
+
+/* THEMES */
+
+.settingsTheme{
+    -fx-border-width: 3;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+.settingsTheme:selected{
+    -fx-border-color: #333;
+}
+.settingstext{
+    -fx-text-fill: Grey;
+}
+.settingstext:selected{
+    -fx-text-fill: dodgerblue;
+}
+
+/* USER PEOPLE */
+
+.user-button:selected{
+    -fx-background-color: rgb(255, 236, 236);
+}

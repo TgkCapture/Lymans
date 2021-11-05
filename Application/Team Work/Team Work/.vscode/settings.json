@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx-swt.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.web.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.swing.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.media.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.graphics.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.fxml.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.controls.jar",
+        "d:\\Android\\java\\java_files\\openjfx-15.0.1_windows-x64_bin-sdk\\javafx-sdk-15.0.1\\lib\\javafx.base.jar",
+        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.19.jar"
+    ]
+}
